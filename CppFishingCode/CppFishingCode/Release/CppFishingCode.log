@@ -1,0 +1,7 @@
+﻿E:\Micsoft Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  正在生成代码
+  0 of 1583 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  CppFishingCode.vcxproj -> D:\Github\CppFishingCode(jimchall)\CppFishingCode\CppFishingCode.exe

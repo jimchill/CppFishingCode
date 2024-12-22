@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{855fc050-8cbb-4102-ba47-c8dcce46b8cc}</ProjectGuid>
+    <RootNamespace>CppFishingCode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>D:\Github\CppFishingCode(jimchall)\CppFishingCode</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CppFishingCode\Resource.h" />
+    <ClInclude Include="..\..\CppFishingCode\stdafx.h" />
+    <ClInclude Include="frame\bullet.h" />
+    <ClInclude Include="frame\files.h" />
+    <ClInclude Include="frame\fish.h" />
+    <ClInclude Include="frame\fishConfig.h" />
+    <ClInclude Include="frame\frame0.h" />
+    <ClInclude Include="frame\frame1.h" />
+    <ClInclude Include="frame\frame2.h" />
+    <ClInclude Include="frame\gold.h" />
+    <ClInclude Include="instance\collision.h" />
+    <ClInclude Include="instance\colVec.h" />
+    <ClInclude Include="instance\d2dWin32.h" />
+    <ClInclude Include="instance\DemoApp.h" />
+    <ClInclude Include="instance\oMap.h" />
+    <ClInclude Include="instance\targetver.h" />
+    <ClInclude Include="instance\utils.h" />
+    <ClInclude Include="render\action.h" />
+    <ClInclude Include="render\animateSprite.h" />
+    <ClInclude Include="render\Content.h" />
+    <ClInclude Include="render\DisplayObject.h" />
+    <ClInclude Include="render\sprite.h" />
+    <ClInclude Include="render\ticker.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="trigger\createBefore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CppFishingCode.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\bullet\bullet1.png" />
+    <Image Include="img\bullet\bullet2.png" />
+    <Image Include="img\bullet\bullet3.png" />
+    <Image Include="img\bullet\bullet4.png" />
+    <Image Include="img\bullet\bullet5.png" />
+    <Image Include="img\bullet\bullet6.png" />
+    <Image Include="img\bullet\bullet7.png" />
+    <Image Include="img\bullet\bullet8.png" />
+    <Image Include="img\bullet\cannon1.png" />
+    <Image Include="img\bullet\cannon2.png" />
+    <Image Include="img\bullet\cannon3.png" />
+    <Image Include="img\bullet\cannon4.png" />
+    <Image Include="img\bullet\cannon5.png" />
+    <Image Include="img\bullet\cannon6.png" />
+    <Image Include="img\bullet\cannon7.png" />
+    <Image Include="img\bullet\web1s.png" />
+    <Image Include="img\bullet\web2s.png" />
+    <Image Include="img\bullet\web3s.png" />
+    <Image Include="img\bullet\web4s.png" />
+    <Image Include="img\bullet\web5s.png" />
+    <Image Include="img\bullet\web6s.png" />
+    <Image Include="img\bullet\web7s.png" />
+    <Image Include="img\fish\fish1.png" />
+    <Image Include="img\fish\fish10.png" />
+    <Image Include="img\fish\fish11.png" />
+    <Image Include="img\fish\fish12.png" />
+    <Image Include="img\fish\fish2.png" />
+    <Image Include="img\fish\fish3.png" />
+    <Image Include="img\fish\fish4.png" />
+    <Image Include="img\fish\fish5.png" />
+    <Image Include="img\fish\fish6.png" />
+    <Image Include="img\fish\fish7.png" />
+    <Image Include="img\fish\fish8.png" />
+    <Image Include="img\fish\fish9.png" />
+    <Image Include="img\fish\shark1.png" />
+    <Image Include="img\fish\shark2.png" />
+    <Image Include="img\glod\coinAni1.png" />
+    <Image Include="img\glod\coinAni2.png" />
+    <Image Include="img\glod\coinText.png" />
+    <Image Include="img\glod\number_black.png" />
+    <Image Include="img\Interface\1a.jpg" />
+    <Image Include="img\Interface\1b.jpg" />
+    <Image Include="img\Interface\1c.jpg" />
+    <Image Include="img\Interface\1d.jpg" />
+    <Image Include="img\Interface\1e.jpg" />
+    <Image Include="img\Interface\1f.jpg" />
+    <Image Include="img\Interface\back.png" />
+    <Image Include="img\Interface\bottom-bar.png" />
+    <Image Include="img\Interface\cannon_minus.png" />
+    <Image Include="img\Interface\cannon_minus_down.png" />
+    <Image Include="img\Interface\cannon_plus.png" />
+    <Image Include="img\Interface\cannon_plus_down.png" />
+    <Image Include="img\Interface\energy-bar.png" />
+    <Image Include="img\Interface\full.png" />
+    <Image Include="img\Interface\jn1.png" />
+    <Image Include="img\Interface\login.png" />
+    <Image Include="img\Interface\sign.png" />
+    <Image Include="img\Interface\startbg.jpg" />
+    <Image Include="img\pro\m.png" />
+    <Image Include="img\pro\play.gif" />
+    <Image Include="img\pwoerPd\cl.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_01-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_02-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_03-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_04-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_05-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_06-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_07-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_08-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_Particles_01-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_Particles_02-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_Particles_03-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_Particles_04-hd.png" />
+    <Image Include="img\pwoerPd\JadePerch_Particles_05-hd.png" />
+    <Image Include="img\pwoerPd\pd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frame\bullet.cpp" />
+    <ClCompile Include="frame\files.cpp" />
+    <ClCompile Include="frame\fish.cpp" />
+    <ClCompile Include="frame\fishConfig.cpp" />
+    <ClCompile Include="frame\frame0.cpp" />
+    <ClCompile Include="frame\frame1.cpp" />
+    <ClCompile Include="frame\frame2.cpp" />
+    <ClCompile Include="frame\gold.cpp" />
+    <ClCompile Include="instance\collision.cpp" />
+    <ClCompile Include="instance\colVec.cpp" />
+    <ClCompile Include="instance\d2dWin32.cpp" />
+    <ClCompile Include="instance\DemoApp.cpp" />
+    <ClCompile Include="instance\oMap.cpp" />
+    <ClCompile Include="instance\stdafx.cpp" />
+    <ClCompile Include="instance\utils.cpp" />
+    <ClCompile Include="render\action.cpp" />
+    <ClCompile Include="render\animateSprite.cpp" />
+    <ClCompile Include="render\Content.cpp" />
+    <ClCompile Include="render\DisplayObject.cpp" />
+    <ClCompile Include="render\sprite.cpp" />
+    <ClCompile Include="render\ticker.cpp" />
+    <ClCompile Include="trigger\createBefore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

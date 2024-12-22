@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\frame">
+      <UniqueIdentifier>{7ecba66d-ba4b-489f-8be7-8c038c638e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\frame">
+      <UniqueIdentifier>{06ba3002-3255-4919-85a1-80c5fa1f6d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\instance">
+      <UniqueIdentifier>{ab433039-de52-4eb4-ba03-b896775812d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\instance">
+      <UniqueIdentifier>{287f46e6-4bf2-4d03-b36a-0f40ae087e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\render">
+      <UniqueIdentifier>{8040c907-86c7-43aa-b368-58d7959975d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\render">
+      <UniqueIdentifier>{09ed41b2-d6c8-4ba8-b6e1-98884f9f8b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\trigger">
+      <UniqueIdentifier>{4e0495e1-b8b9-46bf-b853-b2300135819c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trigger">
+      <UniqueIdentifier>{f75b914d-3eff-4114-82f3-f9ad5d07a2e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame2.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\gold.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\bullet.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\files.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\fish.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\fishConfig.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame0.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="frame\frame1.h">
+      <Filter>头文件\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\targetver.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\utils.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\collision.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\colVec.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\d2dWin32.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\DemoApp.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="instance\oMap.h">
+      <Filter>头文件\instance</Filter>
+    </ClInclude>
+    <ClInclude Include="render\action.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\animateSprite.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\Content.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\DisplayObject.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\sprite.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ticker.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger\createBefore.h">
+      <Filter>头文件\trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppFishingCode\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CppFishingCode\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CppFishingCode.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\pwoerPd\cl.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_01-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_02-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_03-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_04-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_05-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_06-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_07-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_IN_Particles_08-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_Particles_01-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_Particles_02-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_Particles_03-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_Particles_04-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\JadePerch_Particles_05-hd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pwoerPd\pd.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pro\m.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\pro\play.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1a.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1b.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1c.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1d.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1e.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\1f.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\back.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\bottom-bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\cannon_minus.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\cannon_minus_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\cannon_plus.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\cannon_plus_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\energy-bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\full.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\jn1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\login.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\sign.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\Interface\startbg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\glod\coinAni1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\glod\coinAni2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\glod\coinText.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\glod\number_black.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\fish12.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\shark1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\fish\shark2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\bullet8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\cannon7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web1s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web2s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web3s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web4s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web5s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web6s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="img\bullet\web7s.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frame\frame2.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\gold.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\bullet.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\files.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\fish.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\fishConfig.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame0.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="frame\frame1.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\collision.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\colVec.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\d2dWin32.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\DemoApp.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\oMap.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\stdafx.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="instance\utils.cpp">
+      <Filter>源文件\instance</Filter>
+    </ClCompile>
+    <ClCompile Include="render\action.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\animateSprite.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\Content.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\DisplayObject.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\sprite.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ticker.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger\createBefore.cpp">
+      <Filter>源文件\trigger</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
